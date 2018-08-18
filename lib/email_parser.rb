@@ -14,7 +14,6 @@ end
 def parse
  email_list = emails.split(" , ")
  parse
-  
 end 
 
 end 
