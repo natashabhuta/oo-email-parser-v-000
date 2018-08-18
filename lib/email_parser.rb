@@ -12,7 +12,7 @@ def initialize(emails)
 end 
 
 def parse
- email_list = emails.split(" , ")
+ email_list = emails.split(" , ").uniq
  parse
 end 
 
