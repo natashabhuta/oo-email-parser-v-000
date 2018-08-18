@@ -8,11 +8,9 @@ class EmailParser
 
 @@all = []
 
-def email 
-end 
 
 def initialize(parse)
-data = email.split (" , ")
+data = emails.split (" , ")
 data
 end 
 
