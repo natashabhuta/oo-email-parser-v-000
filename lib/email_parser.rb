@@ -6,13 +6,9 @@
 class EmailParser
   attr_accessor :emails
 
-@@all = []
-
-def parse 
-end 
 
 def initialize(emails)
-  @emails = emails
+  @email = emails
 end 
 
   parse = emails.split(" , ")
