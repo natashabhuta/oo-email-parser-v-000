@@ -13,7 +13,7 @@ end
 
 def parse
  email_list = emails.split(" , ")
- email_array.reject! {|element| element.empty?}
+ parse
   
 end 
 
