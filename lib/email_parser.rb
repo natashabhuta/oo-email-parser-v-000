@@ -12,7 +12,8 @@ def initialize(emails)
 end 
 
 def parse
- email_list = emails.split(" , ").
+ email_list = emails.split(" , ")
+ email_array.reject! {|element| element.empty?}
   
 end 
 
