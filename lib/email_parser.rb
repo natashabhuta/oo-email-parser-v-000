@@ -11,7 +11,7 @@ def initialize(emails)
   @emails = emails
 end 
 
-  parse = emails.split(" , ")
+  parse = emails.split(" , ").
   parse 
 end 
 
