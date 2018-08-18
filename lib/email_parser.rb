@@ -8,6 +8,8 @@ class EmailParser
 
 @@all = []
 
+def parse 
+end 
 
 def initialize(emails)
   parse = emails.split(",")
