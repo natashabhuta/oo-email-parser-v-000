@@ -9,10 +9,7 @@ class EmailParser
 @@all = []
 
 def initialize(parse)
-data = email.split ()
+data = email.split (" , ")
+data
 end 
 
-def parser
-  @parse 
-end 
-end 
